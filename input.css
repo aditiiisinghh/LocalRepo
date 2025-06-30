@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 900px;
+  --breakpoint-lg: 1000px;
+  --breakpoint-big: 1300px;
+  --padding-10: 10px;
+  --padding-1-50: 50px;
+  --padding-5-70: 70px;
+  --padding-a-50: 50px;
+  --font-moonDance: "Moon Dance", cursive;
+}
+     
+     /* @layer base{
+        h1{
+            font-size:70px;
+        }
+        h2{
+            font-size:20px;
+        }
+    }
+    
+ for image gallery 
+    @layer component{
+      .img-gallery{
+    @apply w-80  hover:scale-110 transition duration-1000 rounded hover:brightness-120 border-4 border-pink-300;
+    }
+    } */
